@@ -12,10 +12,10 @@
 			"Gain a free [Stele of Constitution] [in this city]",
 			"Automatically built in all cities where it is buildable"
 		],
-		"quote": "The sovereignty of Elysium resides in the people,\nand all political power emanates from the people.\n- Article 2, Constitution of Elysium",
+		"quote": "The sovereignty of Elysium resides in the people,nand all political power emanates from the people.n- Article 2, Constitution of Elysium",
 		"civilopediaText": [
 			{
-				"text": "The sovereignty of Elysium resides in the people,\nand all political power emanates from the people."
+				"text": "The sovereignty of Elysium resides in the people,nand all political power emanates from the people."
 			},
 			{
 				"text": "- Article 2, Constitution of Elysium"

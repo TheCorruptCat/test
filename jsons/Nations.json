@@ -5,7 +5,7 @@
         "adjective": ["Elysian"],
         "startBias": ["Coast"],
         "preferredVictoryType": "Diplomatic",
-        "favoredReligion": "Humanism",
+        "favoredReligion": "Zoroastrianism",
 
 		"personality": "Nobel",
 
@@ -71,5 +71,7 @@
             },
             {
                 "text": "- Article 1, Constitution of Elysium"
-            }
+          }
         ]
+    }
+]
