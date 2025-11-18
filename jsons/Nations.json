@@ -1,38 +1,74 @@
 [
-	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+	"name": "Elysium",
+        "leaderName": "Chancellor Nobel",
+        "adjective": ["Elysian"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+        "favoredReligion": "Humanism",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"personality": "Nobel",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
-]
+		"startIntroPart1": "Elysium is a Democratic Republic, now and forever.",
+		"startIntroPart2": "- Article 1, Constitution of Elysium",
+        "declaringWar": "You would continue to deny others freedom. We're going to rectify that.",
+		"attacked": "You will come to regret your aggression soon enough.",
+		"defeated": "The fall of Elysium is a crushing blow to all free men. It is a terrible loss for all humanity.",
+		"introduction": "Greetings. I am Nobel, the Chancellor of Elysium, and I hope that I can call you a friend to my nation.",
+		"neutralHello": "Good day.",
+		"hateHello": "Well?",
+		"denounced": "Why are you against true democracy?",
+		"declaringFriendship": "Your existence brings hope to the wasteland.",
+		"tradeRequest": "Now, on to business then.",
+
+        "outerColor": [36, 57, 90],
+        "innerColor": [255, 255, 255],
+        "uniqueName": "Land of the Free, Home of the Brave",
+        "uniques": [
+		"Starts with [Constitution] adopted",
+		"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
+		"[-15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
+		"[+15]% Production when constructing [Military] units [in all non-occupied cities] <when at war>",
+		"[Gold] cost of purchasing [Military] units [-15]% <when at war>",
+		"Cannot build [Enslaved] units",
+		"Comment [Cannot build Prison Camp, Work Camp, or Council buildings]"
+
+            // Fake uniques to help understand the nation
+		/*
+            "Comment [Cannot build buildings consuming [Slaves] except [Refugee Center]]",
+            "Comment [Cannot build [Council]]",
+            "Comment [Cannot build [Listening Post]]"
+		*/
+        ],
+        "cities": [
+            "Elysium",
+            "Salute",
+            "Liberty",
+            "Unity",
+            "Triumph",
+            "Justice",
+            "Ambition",
+            "Amity",
+            "Honor",
+            "Prospect",
+            "Duty",
+            "Courage",
+            "Endeavour",
+            "Ascension",
+            "Purpose",
+            "Heritage",
+            "Excellence",
+            "Venture",
+            "Diligence",
+            "Enterprise",
+            "Vibrance",
+            "Clemency"
+        ],
+		"spyNames": ["Eliza", "Antonia", "Benjamin", "Olivia", "Alexis", "Astor", "Walter", "Irene", "Jefferson", "Carol"],
+        "civilopediaText": [
+            {
+                "text": "Elysium is a Democratic Republic."
+            },
+            {
+                "text": "- Article 1, Constitution of Elysium"
+            }
+        ]
