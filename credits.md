@@ -7,3 +7,7 @@ All the following are from [the Noun Project](https://thenounproject.com) licenc
 
 The following is from [freesound] (https://freesound.org) licensed under the Creative Commons 0 License. 
 * [phaser] modified from (https://freesound.org/people/IanStarGem/sounds/341831/) by IanStarGem
+
+Mods used to make this one
+https://github.com/HaneulCheong/Elysium-for-DeCiv-Redux
+https://github.com/AesirRaider/Elysium-in-Alpha-Frontiers
