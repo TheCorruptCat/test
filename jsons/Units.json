@@ -3,7 +3,7 @@
         "name": "Medic",
 		"replaces": "Crossbowman",
 		"uniqueTo": "Elysium",
-		"unitType": "Shooter",
+		"unitType": "Sword",
 		"cost": 35,
 		"movement": 2,
 		"strength": 15,
@@ -23,9 +23,9 @@
 	},
 	{
 		"name": "Support",
-		"replaces": "Conscript",
+		"replaces": "Spearman",
 		"uniqueTo": "Elysium",
-		"unitType": "Shooter",
+		"unitType": "Sword",
 		"cost": 60,
 		"movement": 2,
 		"strength": 24,
@@ -38,7 +38,7 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
-			"Consumes [1] [Weapons]",
+			"Consumes [1] [Iron]",
 			"All adjacent units heal [+10] HP when healing <in [Friendly Land] tiles>",
 			"[-1] Sight"
 		],
@@ -46,9 +46,9 @@
 	},
 	{
 		"name": "NBC Support",
-		"replaces": "NBC Conscript",
+		"replaces": "Lancer",
 		"uniqueTo": "Elysium",
-		"unitType": "Shooter",
+		"unitType": "Sword",
 		"cost": 125,
 		"movement": 2,
 		"strength": 30,
@@ -56,15 +56,15 @@
 		"range": 2,
 		"interceptRange": 1,
 		"requiredTech": "Combined Arms",
-		"upgradesTo": "Black Ops",
+		"upgradesTo": "Tank",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
-			"Consumes [1] [Weapons]",
+			"Consumes [1] [Iron]",
 			"Only available <if [Factory] is constructed>",
 			"All adjacent units heal [+10] HP when healing <in [Friendly Land] tiles>"
 		],
-		"promotions": ["Gas Mask"],
+		"promotions": ["Medic"],
 		"attackSound": "shot"
 	}
 	]
