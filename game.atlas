@@ -67,7 +67,7 @@ TileSets/FantasyHex/Units/Support
   orig: 32, 28
   offset: 0, 0
   index: -1
-UnitIcons/Medic Icon
+UnitIcons/Medic
   rotate: false
   xy: 428, 140
   size: 100, 100
