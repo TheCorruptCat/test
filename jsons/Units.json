@@ -1,17 +1,71 @@
 [
+// Elysium
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+        "name": "Medic",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Elysium",
+		"unitType": "Shooter",
+		"cost": 35,
 		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
+		"strength": 15,
+		"rangedStrength": 20,
 		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
-]
+		"interceptRange": 1,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Support",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"All adjacent units heal [+10] HP when healing <in [Friendly Land] tiles>",
+			"[-1] Sight"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Support",
+		"replaces": "Conscript",
+		"uniqueTo": "Elysium",
+		"unitType": "Shooter",
+		"cost": 60,
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 30,
+		"range": 2,
+		"interceptRange": 1,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "NBC Support",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"All adjacent units heal [+10] HP when healing <in [Friendly Land] tiles>",
+			"[-1] Sight"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "NBC Support",
+		"replaces": "NBC Conscript",
+		"uniqueTo": "Elysium",
+		"unitType": "Shooter",
+		"cost": 125,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 35,
+		"range": 2,
+		"interceptRange": 1,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Black Ops",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"Only available <if [Factory] is constructed>",
+			"All adjacent units heal [+10] HP when healing <in [Friendly Land] tiles>"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "shot"
+		},
+	]
