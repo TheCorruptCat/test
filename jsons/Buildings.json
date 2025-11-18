@@ -1,25 +1,26 @@
 [
+// Elysium
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Constitution of Elysium",
+		"isWonder": true,
+		"uniqueTo": "Elysium",
+		"cost": 0,
+		"uniques": [
+			"[+1 Culture] from every specialist [in this city]",
+			"[2] free [Medic] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]",
+			"Gain a free [Stele of Constitution] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "The sovereignty of Elysium resides in the people,\nand all political power emanates from the people.\n- Article 2, Constitution of Elysium",
+		"civilopediaText": [
+			{
+				"text": "The sovereignty of Elysium resides in the people,\nand all political power emanates from the people."
+			},
+			{
+				"text": "- Article 2, Constitution of Elysium"
+			}
+		]
 	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
 ]
